@@ -140,6 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eee07352076b7d45b78e1499165fe6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  animalPrefabs: []
+  spawnManager: {fileID: 0}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,6 +608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: 7b6675de545141649953fd8adec4561b, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 7b6675de545141649953fd8adec4561b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -875,6 +882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7103494176779841475, guid: 0fba00e3111ac864d87684d1b23ab86f, type: 3}
+      propertyPath: spawnManager
+      value: 
+      objectReference: {fileID: 694241408}
     - target: {fileID: 2473581976209628968, guid: 0fba00e3111ac864d87684d1b23ab86f, type: 3}
       propertyPath: m_Name
       value: Animal_Fox_01
@@ -976,6 +987,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3362571401982536785, guid: 0a8632fd02ea75048b6ab51d65aed351, type: 3}
+      propertyPath: spawnManager
+      value: 
+      objectReference: {fileID: 694241408}
     - target: {fileID: 3362571401982536786, guid: 0a8632fd02ea75048b6ab51d65aed351, type: 3}
       propertyPath: m_Name
       value: Animal_Stag_01
@@ -1017,6 +1032,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4545904104425521170, guid: adfb6ed8db60cda4e8cee61397ead6d2, type: 3}
+      propertyPath: spawnManager
+      value: 
+      objectReference: {fileID: 694241408}
     - target: {fileID: 5842297236129677290, guid: adfb6ed8db60cda4e8cee61397ead6d2, type: 3}
       propertyPath: m_Name
       value: Animal_Doe_01

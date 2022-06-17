@@ -30,4 +30,10 @@ public class SpawnManager : MonoBehaviour
 
         Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
     }
+
+    public void Stop()
+    {
+        Debug.Log("STOP");
+        CancelInvoke();
+    }
 }
